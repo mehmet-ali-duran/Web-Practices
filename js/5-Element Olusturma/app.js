@@ -1,0 +1,10 @@
+const link = document.createElement("a");
+link.id = "goToYoutube";
+link.className = "btn btn-dark btn-sm mt-3";
+link.href = "https://youtube.com";
+link.target = "_blank";
+link.innerHTML = "Youtube'a git";
+const body = document.querySelector("body");
+body.appendChild(link);
+console.log(link);
+console.log(body);
